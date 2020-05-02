@@ -172,13 +172,14 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">Convolutional Neural Network (CNN) using Tensorflow </h3>
+            <h3 class="mb-0">Kaggle Competition: Flower Classification using TPU- CNN Model </h3>
             <div class="subheading mb-3">Description & Objective</div>
-            <p>MNIST is a dataset of 60,000 small squared 28x28 pixel grayscale images of handwritten sigle digits between 0 to 9.</p>
-			<p>The objective of the project was to build a convolutional dense model using Python Keras and Tensorflow libraries such that the model can predict the digit of the incoming new images with high accuracy.</p>
-			<p>Steps performed includes - Train-Test split of the dataset; scaling of the Train images; using Dense, Conv2D and MaxPool2D layers; prediction on Test images; and evaluation of the model.</p>
+            <p>The objective of the competition is to build a Deep Learning model to classify 104 types of flowers using TPUs.</p>
+	    <p>We build the model for the prediction and used combined effect of two models – DenseNet and EfficientNet-B7. We took the equal weightage (50%) of prediction from both the models and then used “argmax” function to get the class label with highest probability.
+		Managed to achieve the least rank of 54 out of ~700 participated teams.</p>
+	    <p>Steps performed includes - Train-Valid-Test split of the flower images of size (512,512); scaling of the Train images; use of Fine Tuning (DenseNet & EfficientNet B7) & Learning Rate Schedular.</p>
 			<div class="subheading mb-3">Source Code</div>
-            <p>Source code in Python can be found <a href="https://github.com/rohitnagpal92/CNN_Tensorflow_Keras" class="mw-redirect" title= "here">here</a></p>
+            <p>Source code in Python can be found <a href="https://github.com/rohitnagpal92/CNN_Flower_Classification" class="mw-redirect" title= "here">here</a></p>
           </div>
          
         </div>
